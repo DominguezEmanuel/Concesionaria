@@ -23,6 +23,13 @@ public class Automovil {
 		this.precio = precio;
 		this.color = color;
 	}
+	
+
+	@Override
+	public String toString() {
+		return "Datos [Patente: " + patente + " - Marca: " + marca + " - Modelo: " + modelo + " - Año: " + anio
+				+ " - Precio: $" + precio + " - Color: " + color + "]";
+	}
 
 	public String getPatente() {
 		return patente;
