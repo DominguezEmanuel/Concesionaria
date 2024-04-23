@@ -6,6 +6,7 @@ public class TestGenerico {
 
 	public static void main(String[] args) {
 		
+		//Definicion para genericos
 		GenericoDosAtributos<Integer, Integer> telefono = 
 				new GenericoDosAtributos<Integer, Integer>(388, 5081562);
 				

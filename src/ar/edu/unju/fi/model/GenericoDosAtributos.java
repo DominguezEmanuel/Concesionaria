@@ -5,6 +5,8 @@ public class GenericoDosAtributos<K, V> {
 	private K codigo;
 	private V numero;
 	
+	//Ejemplo de Genericos
+	
 	public GenericoDosAtributos() {
 		
 	}
